@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: grey;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: white;
+  color: black;
+  background-image: url('https://i.pinimg.com/736x/8f/d1/9c/8fd19c623b30862405800c7623f0aba2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+.cta-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 65px;
+  width: 240px;
+  margin: 10px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.cta-btn:hover {
+  transform: scale(1.06);
+  background-color: #222;
+}
+.features-section {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.feature-card {
+  background: #d1cfcf;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.feature-card h3 {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 33px;
+  font-weight: 780;
+  text-align: center;
+  color: white;
+}
+.heading {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+.subheading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+.divtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.how-section {
+  padding: 3rem 2rem;
+  background-color: #e6f9f7;
+}
+.how-section ol {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+.how-section ol li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.use-cases-section {
+  padding: 3rem 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+.use-cases-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.use-cases-section li {
+  margin-bottom: 0.8rem;
+}
+.testimonials-section {
+  padding: 3rem 2rem;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-style: italic;
+}
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 2rem 2rem;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-left h3 {
+  font-size: 20px;
+  color: #00bfa6;
+  margin-bottom: 0.5rem;
+}
+
+.footer-center h4,
+.footer-right h4 {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #00bfa6;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center li {
+  margin-bottom: 8px;
+}
+
+.footer-center a,
+.footer-right a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-center a:hover,
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  color: #bbb;
+}
+.headingspan{
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+  
+

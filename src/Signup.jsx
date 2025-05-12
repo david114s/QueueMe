@@ -1,5 +1,5 @@
 import React from "react";
-import "./signup.css";
+import "./Signup.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Navigate, useNavigate } from "react-router-dom";
